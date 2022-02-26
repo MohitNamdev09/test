@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class Main {
+public static void main( String args[])
+
+{
+
+    int a,b,f;
+    float per;
+
+    System.out.println("Enter marks of sub 1");
+    Scanner s = new Scanner(System.in); {
+        a =s.nextInt();
+    }
+    System.out.println("Enter marks of sub 2");
+    Scanner sk = new Scanner(System.in);
+    {
+        b=sk.nextInt();
+    }
+    f=a+b;
+
+    per= (f*100)/200;
+    System.out.println("per is" +per);
+}
+}
